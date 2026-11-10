@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Ayaaan 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <video id="firstPageMusic" loop playsinline>
+    <source src="audio/first-page-song.mp4" type="video/mp4">
+</video>
+    <!-- FLOATING HEARTS BACKGROUND -->
+    <div class="hearts-container" aria-hidden="true"></div>
+
+
+    <!-- PAGE 1: WELCOME -->
+    <section class="page active" id="welcome">
+
+        <div class="emoji">💗</div>
+
+        <h1>Hey Ayaaan!</h1>
+
+        <p>
+            I made something special just for you...
+        </p>
+
+        <button data-next="apology">
+            Open My Heart ❤️
+        </button>
+
+    </section>
+
+
+    <!-- PAGE 2: APOLOGY -->
+    <section class="page" id="apology">
+
+        <div class="emoji">🥺</div>
+
+        <h2>I'm Really Sorry</h2>
+
+        <p>
+           <strong>  I know things haven't been perfect.
+            I may have made mistakes and hurt you,
+            but I never wanted to make you feel that way.
+
+            You are important to me, and I'm truly sorryyyyyyyyy.❤️</strong>
+        </p>
+
+        <button data-next="letter">
+            Read My Heart 💌
+        </button>
+
+    </section>
+
+
+    <!-- PAGE 3: LOVE LETTER -->
+    <section class="page" id="letter">
+        <!-- HEARTS BEHIND LOVE LETTER -->
+<div class="letter-hearts" aria-hidden="true"></div>
+
+        <div class="emoji">💌</div>
+
+        <h2>A Little Letter For You ❤️</h2>
+
+        <!-- ENVELOPE -->
+        <div class="envelope-wrapper">
+
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-body">
+                    <span class="envelope-heart">💗</span>
+                </div>
+
+            </div>
+
+
+            <!-- OPEN LETTER BUTTON -->
+            <button id="openLetterBtn">
+                Open My Letter 💌
+            </button>
+
+
+            <!-- LOVE LETTER CONTENT -->
+            <div class="letter-paper" id="letterPaper">
+
+                <h2>To My Favourite Person ❤️</h2>
+
+                <p>
+My dearest Ayaaan,
+
+You mean more to me than words can explain.
+
+I'm sorry for the times I hurt you.
+I just want you to know how special you are
+and how much khuddd humareeee loveee💗
+khudd ko bahutt chaate humm💗
+
+Khud ko chid ke boldete idhar udhar ka
+lekin humara intention kabhi bhi
+khudd ko hurt karne ka nahi rahta 🥹
+
+You're heaven, I'd love to find my forever in you. 🥹🌸❤️
+
+If you have tears, I would love to wipe them away. 🥹❤️
+If you want to cry, I would love to hold you. 🫂
+Even if you get hurt, I'll be there to heal your heart. 🌸
+
+If you are the ocean, I'll be the waves. 🌊
+If you're the winter, I'll be the warmth. ❄️❤️
+
+You're my hope, my North Star. ⭐
+
+And no matter what happens,
+I'll always love you. 🥹❤️🌷
+
+
+Forever yours,
+
+Your Shireen ❤️
+                </p>
+
+            </div>
+
+
+            <!-- NEXT PAGE BUTTON -->
+            <button data-next="reasons">
+                One More Thing 💗
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- PAGE 4: REASONS -->
+    <section class="page" id="reasons">
+
+        <div class="emoji">💕</div>
+
+        <h2>Why You Are Special</h2>
+
+        <
+<div class="reason-card shayari-reason" onclick="revealReason(this)">
+
+    <span>🥀</span>
+
+    <h3>A Baat Umr Bhar Ki Hai</h3>
+
+    <p class="hidden-reason">
+
+        Zindagi ke mele mein,<br>
+        Khwaahishon ke rele mein,<br>
+        Tumse kya kahein jaana,<br>
+        Is kadar jhamayle mein!<br><br>
+
+        Waqt ki rawaani hai,<br>
+        Waqt ki karaani hai,<br>
+        Sakht be-maani hai,<br>
+        Sakht laa-makaani hai!<br><br>
+
+        Hijr ke samandar mein,<br>
+        Takht aur takhte ki ek hi kahaani hai,<br>
+        Tumko jo sunaani hai...<br><br>
+
+        Baat to zara si hai,<br>
+        Baat umr bhar ki hai. ❤️
+
+    </p>
+
+    <small>Tap to reveal my heart 💗</small>
+
+</div>
+
+
+        <button data-next="memories">
+            Our Memories 📸
+        </button>
+
+    </section>
+
+
+    <!-- PAGE 5: MEMORIES -->
+    <section class="page" id="memories">
+
+        <div class="emoji">📸</div>
+
+        <h2>Our Little Memories 💗</h2>
+
+        <p>
+            Every picture has a story,
+            and every story has you. 🥹
+        </p>
+
+
+        <!-- PHOTO GALLERY -->
+        <div class="photo-gallery">
+
+            <div class="photo">
+                <img src="images/photo1.jpeg" alt="Our memory">
+                <p>My favourite person 💕</p>
+            </div>
+ <div class="photo">
+                <img src="images/photo9.jpeg" alt="Our memory">
+                <p>A memory i will always cherish 💕</p>
+            </div>
+            
+            <div class="photo">
+                <img src="images/photo10.jpeg" alt="Our memory">
+                <p>Me and my favorite shadow 💕</p>
+            </div>
+            <div class="photo">
+                <img src="images/photo7.jpeg" alt="Our memory">
+                <p>Some moments become memories,
+                 but some memories become a part of us." 💕</p>
+            </div>
+
+            <div class="photo">
+                <img src="images/photo8.jpeg" alt="Our memory">
+                <p>You probably don't realise 
+                    how much happiness this little smile gives me. 💕</p>
+             </div>
+
+            <div class="photo">
+                <img src="images/photo3.jpeg" alt="Our memory">
+                <p>Us being us ❤️</p>
+            </div>
+
+            <div class="photo">
+                <img src="images/photo4.jpeg" alt="Our memory">
+                <p>My favourite view ❤️ I could look at this smile a thousand times and
+                never get tired.</p>
+            </div>
+             <div class="photo">
+                <img src="images/photo2.jpeg" alt="Our memory">
+                <p>My favourite smile 🥹</p>
+            </div>
+
+            <div class="photo">
+                <img src="images/photo5.jpeg" alt="Our memory">
+                <p>Forever my favourite 💗</p>
+            </div>
+            
+
+            <div class="photo">
+                <img src="images/photo6.jpeg" alt="Our memory">
+                <p>A little piece of forever 💗</p>
+            </div>
+            
+           
+
+        </div>
+
+
+        <button data-next="final">
+            One Last Surprise 💌
+        </button>
+
+    </section>
+
+
+    <!-- PAGE 6: FINAL SURPRISE -->
+    <section class="page" id="final">
+
+        <div class="emoji">🥹❤️</div>
+
+        <h2>Can You Forgive Me?</h2>
+
+        <p>
+            No matter what happens, you will always
+            be my favourite person.
+
+            Khuddd humaree lobbbb, Ayaaan! 🥹💗
+        </p>
+
+
+        <!-- LOVE MUSIC PLAYER -->
+        <div class="music-player">
+
+            <div class="music-icon">🎧</div>
+
+            <div class="music-info">
+
+                <h3>My Favourite Voice 💗</h3>
+
+                <p>A little melody from you...</p>
+
+                <div class="music-progress">
+
+                    <span id="currentTime">0:00</span>
+
+                    <input
+                        type="range"
+                        id="progressBar"
+                        value="0"
+                        min="0"
+                        max="100"
+                    >
+
+                    <span id="duration">0:00</span>
+
+                </div>
+
+            </div>
+
+
+            <button id="playBtn" aria-label="Play music">
+                ▶
+            </button>
+
+
+            <audio id="loveAudio" preload="metadata">
+                <source src="audio/his-song.ogg" type="audio/ogg">
+            </audio>
+
+        </div>
+
+
+        <!-- FORGIVENESS BUTTON -->
+        <button id="yesBtn">
+            Of course ❤️
+        </button>
+
+        <h3 id="finalMessage"></h3>
+
+
+        <!-- RESTART BUTTON -->
+        <button id="restartBtn" class="secondary">
+            Read Again 💕
+        </button>
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
